@@ -1,0 +1,1 @@
+select * from flights where year=2013 INTO OUTFILE '/desktop/tab.csv'

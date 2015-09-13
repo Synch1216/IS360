@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<workbook source-platform='mac' version='9.0' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 9000.15.0820.1222                                -->
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='tab' inline='true' name='textscan.42260.167837303200' version='9.0'>
+      <connection class='textscan' directory='/Users/malcolmbarnes/Desktop' filename='tab.csv' password='' server='' username=''>
+        <relation name='tab#csv' table='[tab#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='year' ordinal='0' />
+            <column datatype='integer' name='month' ordinal='1' />
+            <column datatype='integer' name='day' ordinal='2' />
+            <column datatype='integer' name='dep_time' ordinal='3' />
+            <column datatype='integer' name='dep_delay' ordinal='4' />
+            <column datatype='integer' name='arr_time' ordinal='5' />
+            <column datatype='integer' name='arr_delay' ordinal='6' />
+            <column datatype='string' name='carrier' ordinal='7' />
+            <column datatype='string' name='tailnum' ordinal='8' />
+            <column datatype='integer' name='flight' ordinal='9' />
+            <column datatype='string' name='origin' ordinal='10' />
+            <column datatype='string' name='dest' ordinal='11' />
+            <column datatype='integer' name='air_time' ordinal='12' />
+            <column datatype='integer' name='distance' ordinal='13' />
+            <column datatype='integer' name='hour' ordinal='14' />
+            <column datatype='integer' name='minute' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dep_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dep_time]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>dep_time</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dep_delay</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dep_delay]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>dep_delay</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>arr_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[arr_time]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>arr_time</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>arr_delay</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[arr_delay]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>arr_delay</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>carrier</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[carrier]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>carrier</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tailnum</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tailnum]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>tailnum</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flight</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[flight]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>flight</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[origin]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>origin</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dest</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dest]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>dest</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>air_time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[air_time]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>air_time</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>distance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[distance]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>distance</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hour</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hour]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>hour</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>minute</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[minute]</local-name>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias>minute</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name></remote-name>
+            <remote-type>0</remote-type>
+            <parent-name>[tab#csv]</parent-name>
+            <remote-alias></remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Air Time' datatype='integer' name='[air_time]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Arr Delay' datatype='integer' name='[arr_delay]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Arr Time' datatype='integer' name='[arr_time]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Carrier' datatype='string' name='[carrier]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Day' datatype='integer' name='[day]' role='dimension' type='quantitative'>
+      </column>
+      <column caption='Dep Delay' datatype='integer' name='[dep_delay]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Dep Time' datatype='integer' name='[dep_time]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Dest' datatype='string' name='[dest]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Distance' datatype='integer' name='[distance]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Flight' datatype='integer' name='[flight]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Hour' datatype='integer' name='[hour]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Minute' datatype='integer' name='[minute]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Month' datatype='integer' name='[month]' role='dimension' type='quantitative'>
+      </column>
+      <column caption='Origin' datatype='string' name='[origin]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Tailnum' datatype='string' name='[tailnum]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative'>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tab' name='textscan.42260.167837303200' />
+          </datasources>
+          <datasource-dependencies datasource='textscan.42260.167837303200'>
+            <column caption='Carrier' datatype='string' name='[carrier]' role='dimension' type='nominal'>
+            </column>
+            <column caption='Dep Delay' datatype='integer' name='[dep_delay]' role='measure' type='quantitative'>
+            </column>
+            <column-instance column='[carrier]' derivation='None' name='[none:carrier:nk]' pivot='key' type='nominal' />
+            <column-instance column='[dep_delay]' derivation='Sum' name='[sum:dep_delay:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[textscan.42260.167837303200].[sum:dep_delay:qk]</rows>
+        <cols>[textscan.42260.167837303200].[none:carrier:nk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[textscan.42260.167837303200].[none:carrier:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
